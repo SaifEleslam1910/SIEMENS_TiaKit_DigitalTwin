@@ -13,8 +13,8 @@ public class ConveyorBeltController : MonoBehaviour
 
     void Update()
     {
-        check_sense_2();
-        check_sense();
+        check_sensor();
+        check_barrier();
 
         // تحريك الخامة (Texture)
         if (beltRenderer != null)
@@ -22,12 +22,12 @@ public class ConveyorBeltController : MonoBehaviour
             if (beltSpeed > 0f)
             {
                 // جرب _BaseMap أو _MainTex حسب نوع الماتريال
-                beltRenderer.material.SetTextureOffset("_BaseMap", new Vector2(Time.time * textureSpeed, 0));
+                beltRenderer.material.SetTextureOffset("_BaseMap", new Vector2(0, Time.time * textureSpeed));
             }
-            check_sense_2();
+            check_sensor();
 
         }
-        
+
     }
 
     void OnCollisionStay(Collision collision)
@@ -39,9 +39,9 @@ public class ConveyorBeltController : MonoBehaviour
         }
     }
 
-     void check_sense_2()
+    void check_sensor()
     {
-        if (sense_2.flag_2 == 0)
+        if (sense_2.flag_2 == 1)
         {
             // Add your logic here for when the player enters the trigger zone
             // For example, you can stop the conveyor belt or change its speed
@@ -50,9 +50,10 @@ public class ConveyorBeltController : MonoBehaviour
         }
         else
         {
+
         }
     }
-    void check_sense()
+    void check_barrier()
     {
         if (sense.flag == 1)
         {
@@ -65,5 +66,9 @@ public class ConveyorBeltController : MonoBehaviour
         {
         }
     }
-   
+    
+
+
 }
+
+
