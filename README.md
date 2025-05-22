@@ -1,6 +1,6 @@
-# SIEMENS_Conveyor_Kit_6ZB23100AP00_Digital_Twin 
+# SIEMENS_Conveyor_Belt_Module_with_S7-1500_Digital_Twin 
 
-🚀 **Welcome to the SIEMENS Conveyor Kit 6ZB2310-0AP00 Digital Twin project!** This project simulates and controls a **conveyor system** using a digital twin approach, combining 3D modeling, real-time simulation, and industrial communication protocols.  
+🚀 **Welcome to the SIEMENS Conveyor Belt Module 6ZB2310-0AP00 with S7-1500 Digital Twin project!** This project simulates and controls a **conveyor belt system** using a digital twin approach, combining 3D modeling, real-time simulation, and industrial communication protocols.  
 
 ## Key Components  
 - **3D Modeling**: Blender for modeling conveyor belt and environment assets.  
