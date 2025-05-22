@@ -1,4 +1,4 @@
-# SIEMENS_Conveyor_Belt_Module_with_S7-1500_Digital_Twin 
+# SIEMENS Conveyor Belt Module with S7-1500 Digital Twin 
 
 🚀 **Welcome to the SIEMENS Conveyor Belt Module 6ZB2310-0AP00 with S7-1500 Digital Twin project!** This project simulates and controls a **conveyor belt system** using a digital twin approach, combining 3D modeling, real-time simulation, and industrial communication protocols.  
 
