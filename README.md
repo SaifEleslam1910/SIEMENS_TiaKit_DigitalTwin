@@ -2,7 +2,7 @@
 
 # Mini Conveyor Digital Twin  
 
-🚀 **Welcome!** This project simulates and controls a **mini conveyor system** using a digital twin approach, combining 3D modeling, real-time simulation, and industrial communication protocols.  
+🚀 **Welcome to the SIEMENS TiaKit DigitalTwin project!** This project simulates and controls a **mini conveyor system** using a digital twin approach, combining 3D modeling, real-time simulation, and industrial communication protocols.  
 
 ## Key Components  
 - **3D Modeling**: Blender for conveyor belt and environment assets.  
