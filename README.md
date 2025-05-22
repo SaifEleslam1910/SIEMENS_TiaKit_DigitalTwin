@@ -1,11 +1,9 @@
-# SIEMENS_TiaKit_DigitalTwin
+# SIEMENS_Conveyor_Kit_DigitalTwin 
 
-# Mini Conveyor Digital Twin  
-
-🚀 **Welcome to the SIEMENS TiaKit DigitalTwin project!** This project simulates and controls a **mini conveyor system** using a digital twin approach, combining 3D modeling, real-time simulation, and industrial communication protocols.  
+🚀 **Welcome to the SIEMENS Conveyor Kit Digital Twin project!** This project simulates and controls a **conveyor system** using a digital twin approach, combining 3D modeling, real-time simulation, and industrial communication protocols.  
 
 ## Key Components  
-- **3D Modeling**: Blender for conveyor belt and environment assets.  
+- **3D Modeling**: Blender for modeling conveyor belt and environment assets.  
 - **Simulation Engine**: Unity 3D for physics-based dynamics and visualization.  
 - **Industrial Communication**: OPC UA and TCP sockets for PLC data exchange.  
 
